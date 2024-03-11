@@ -1,0 +1,34 @@
+* My Fedora Sway Configuration
+
+** Files/folders
+
+| Arquivo/pasta               | Ação                                                 |
+|-----------------------------+------------------------------------------------------|
+| .config/                    | Copiar diretamente para a pasta ~/.config            |
+| 60-bindings-screenshot.conf | Substituir arquivo da pasta /usr/share/sway/config.d |
+
+** Instructions
+
+*** Install repositories and packages (see list of repositories here and packages [[package-list.org][here]]
+```bash
+sudo dnf update
+sudo dnf install mc emacs
+sudo dnf install alacritty
+sudo dnf install ~/Downloads/linux/rpmfusion-free-release-38.noarch.rpm ~/Downloads/linux/rpmfusion-nonfree-release-38.noarch.rpm
+sudo dnf install ncmpcpp mpd openfortivpn --allowerasing
+sudo dnf install wf-recorder wlsunset
+sudo dnf install git dotnet-sdk-6.0 htop glances swappy
+sudo dnf install remmina gnome-system-monitor
+sudo dnf install zathura zathura-pdf-poppler libreoffice
+sudo dnf group install --with-optional virtualization
+sudo systemctl start libvirtd
+sudo systemctl enable libvirtd
+sudo dnf install gnome-software
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+```
+
+*** Copiar `60-bindings-screenshot.conf` para `/usr/share/sway/config.d/60-bindings-screenshot.conf`:
+
+*** TODO:
+[[TODO.org][TO-DO list]]
