@@ -1,4 +1,4 @@
-* TODO [2/3]
+* TODO: [2/3]
 - [X] +Unir lista de pacotes com os prints anexados no repositório.+ Já adicionei os arquivos relevantes [[flatpak-list.org]] e [[package-list.org]]
 - [X] Adicionar pacotes instalados usando o histórico do dnf e do flatpak. Vide acima.
 - [ ] Adicionar lista de URLs com instruções para instalar ou configurar impressora, VSCode, etc...
