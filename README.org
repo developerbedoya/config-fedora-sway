@@ -28,6 +28,6 @@
   flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 #+END_SRC
 
-*** Copy [[60-bindings-screenshot.conf][~60-bindings-screenshot.conf~]] into ~/usr/share/sway/config.d/60-bindings-screenshot.conf~
+*** Copy [[60-bindings-screenshot.conf]] into ~/usr/share/sway/config.d/60-bindings-screenshot.conf~
 
 *** TODO: [[TODO.org][TO-DO list]]
