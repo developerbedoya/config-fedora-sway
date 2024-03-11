@@ -1,8 +1,8 @@
 * Package list, generated automatically by the following command:
 
-```bash
+#+BEGIN_SRC bash
 dnf history userinstalled | awk 'BEGIN { print "| Package Name | Architecture | Version |"; print "|--------------+--------------+---------|"; } { print "| " $1 " | " $2 " | " $3 " |" }'
-```
+#+END_SRC
 
 | Package Name                                                      | Architecture | Version |
 |-------------------------------------------------------------------+--------------+---------|

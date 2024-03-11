@@ -10,7 +10,7 @@
 ** Instructions
 
 *** Install repositories and packages (see list of repositories here and packages [[package-list.org][here]]
-```bash
+#+BEGIN_SRC bash
 sudo dnf update
 sudo dnf install mc emacs
 sudo dnf install alacritty
@@ -25,8 +25,7 @@ sudo systemctl start libvirtd
 sudo systemctl enable libvirtd
 sudo dnf install gnome-software
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-```
+#+END_SRC
 
 *** Copiar `60-bindings-screenshot.conf` para `/usr/share/sway/config.d/60-bindings-screenshot.conf`:
 
