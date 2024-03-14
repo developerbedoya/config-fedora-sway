@@ -1,0 +1,18 @@
+* Repository list, generated automatically by the following command:
+
+#+BEGIN_SRC bash
+dnf repolist | tail -n +2 | awk 'BEGIN { print "| Repo ID |";print "|---------|"; } { print "| "$1" |" }' 
+#+END_SRC
+
+| Repo ID |
+|---------|
+| code |
+| fedora |
+| fedora-cisco-openh264 |
+| google-chrome |
+| microsoft-edge |
+| packages-microsoft-com-prod |
+| rpmfusion-free |
+| rpmfusion-free-updates |
+| updates |
+
